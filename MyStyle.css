@@ -37,26 +37,19 @@
     }
 
 #Home_Div {
-    display: none;
-    background-color: blue;
-    text-align:center;
+    text-align: center;  
 }
 
 #About_Div {
-    display: none;
-    background-color: blue;
-    text-align:justify;
+    text-align: justify; 
+    display: none; 
 }
 #Contact_Div {
     display: none; 
-    background-color: blue;
-
 }
 
 #Projects_Div {
-    /* display:none;*/
-    background-color: darkslateblue;
-   
+    display: none; 
 }
 
 .PresentationDiv {
@@ -68,7 +61,8 @@
     width: 94%;
     height: 88%;
     z-index: -1;
-    text-align: center
+    text-align: center;
+    background-color: darkslateblue;
 }
 
 #Footer_Div {
@@ -84,8 +78,8 @@
 
 .ContentDiv {
     margin: 15%;
-    margin-bottom: 15%; 
-    height: 68%;
+    margin-bottom: 15%;
+    height: 68%; 
 }
 
 .FancyText1 {
@@ -121,4 +115,41 @@
 #second {
     visibility: hidden; 
 }
+
+#Header_Div button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none; 
+    font-family: "Poppins", sans-serif;
+}
+
+#Home_btn 
+{
+    color:gray;
+}
+
+.NavBtn {
+    color: white;
+}
+
+#Contact_Div a {
+    color: white;
+    text-decoration: none;
+    display:inline-block;
+    font-size:xx-large;
+    padding:2%;
+}
+
+#Patterns_Div 
+{
+    background-color:transparent;
+}
+
+
+ 
+
+ 
 

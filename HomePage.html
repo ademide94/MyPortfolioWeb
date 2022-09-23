@@ -6,6 +6,7 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Poppins">
     <link type="text/css" rel="stylesheet" href="..\MyPortfolioWeb\MyStyle.css">
     <link rel="icon" type="image/x-icon" href="..\MyPortfolioWeb\Images\7ef8ed38871d14ee7b5af7ad2a6c1b10.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
 
     <title>Ademide's</title>
@@ -15,12 +16,12 @@
 
         <img src="..\MyPortfolioWeb\Images\ademide_ibrahim_294254614_3009933272642110_365050151263493607_n.webp" alt="Ademide's">
         <p>
-            <button onclick="HomeFunction()">Home</button>|<button onclick="myFunction()">About</button>
-            |<button onclick="myFunction()">Projects</button>|<button onclick="myFunction()">Contact</button>
+            <button id="Home_btn" onclick="HomeFunction()">Home</button>|<button class="NavBtn" id="About_btn" onclick="AboutFunction()">About</button>
+            |<button class="NavBtn" id="Projects_btn"  onclick="ProjectsFunction()">Projects</button>|<button class="NavBtn" id="Contact_Btn" onclick="ContactFunction()">Contact</button>
         </p>
     </div>
-    <div class="PresentationDiv" id="Home_Div">
-        <div class="ContentDiv">
+    <div   class="PresentationDiv" >
+        <div id="Home_Div"  class="ContentDiv">
             <span id="MoveText" class="FancyText1">
                 Ibrahim Ademide's <b>Port</b><b id="first">fo</b><b id="second">lio</b>
             </span>
@@ -35,24 +36,36 @@
                 FrontEnd
             </span>
         </div>
-    </div>
-    <div class="PresentationDiv" id="About_Div">
-        <div class="ContentDiv">
-            <span>
-                The World Bank provides low-interest loans, zero to low-interest credits, and grants to developing countries. These support a wide array of investments in such areas as education, health, public administration, infrastructure, financial and private sector development, agriculture, and environmental and natural resource management. Some of our projects are cofinanced with governments, other multilateral institutions, commercial banks, export credit agencies, and private sector investors.The World Bank provides low-interest loans, zero to low-interest credits, and grants to developing countries. These support a wide array of investments in such areas as education, health, public administration, infrastructure, financial and private sector development, agriculture, and environmental and natural resource management. Some of our projects are cofinanced with governments, other multilateral institutions, commercial banks, export credit agencies, and private sector investors.
-            </span>
+    
+    
+        <div id="About_Div" class="ContentDiv">
+            <p id="typedtext">
+   
+                 
+            </p>
         </div>
-    </div>
-    <div class="PresentationDiv" id="Projects_Div">
-        <div class="ContentDiv">
+   
+  
+        <div id="Projects_Div" class="ContentDiv">
 
-           
+             projects
 
         </div>
-    </div>
-    <div class="PresentationDiv" id="Contact_Div">
-        <div class="ContentDiv">
+  
+    
+        <div id="Contact_Div" class="ContentDiv">
+            
+            <div id="Patterns_Div">
+                <h3>You can contact me via</h3>
+                <a class="fa fa-envelope" href="mailto:ibrahim.ademide@yahoo.com?">
+                    Email
+                </a>
 
+                <a class="fa fa-linkedin" target="_blank" href="https://www.linkedin.com/in/ibrahim-ademide-b8a3748b?">
+                    LinkedIn
+                </a>
+            </div>
+            
         </div>
     </div>
 
