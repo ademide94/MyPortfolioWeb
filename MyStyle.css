@@ -148,6 +148,27 @@
     background-color:transparent;
 }
 
+#Projects_Div table {
+    width: 100%; 
+}
+
+#Projects_Div tr {
+    width: 100%;
+    height: 40%; 
+}
+
+#Projects_Div td {
+    width: 25%;
+    background-color: mediumslateblue;
+    border: 2px solid;
+    border-color: darkslateblue;
+   font-size:large
+    
+}
+
+#Projects_Div a {
+    text-decoration: none;
+}
 
  
 
